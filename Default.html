@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habib Ullah</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="Mediaqueries.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Habib Ullah</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <nav id="hamburger-nav">
+        <div class="logo">Habib Ullah</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- profile section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img id="my-image" src="./Image/30.png" alt="Profile">
+        </div>
+        <div class="section__text">
+            <p class="section__text_p1">Hello, I'm</p>
+            <h1 class="title">Habib Ullah</h1>
+            <p class="section__text_p2">Oracle Apex Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Habib_cv/Default.html')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+
+
+            <div id="socials-container">
+    <img src="./Image/linked_02.png" alt="Linkedin" class="icon" onclick="openLink('https://www.linkedin.com/in/habib8m/')">
+    <img src="./Image/facebook-icon_02.png" alt="Facebook" class="icon" onclick="openLink('https://www.facebook.com/habib8m')">
+</div>
+
+<script>
+    function openLink(url) {
+        window.open(url, '_blank');
+    }
+</script>
+
+            
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about">
+        <p class="section__text_p1">Get to know more</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img id="my-image2" src="./Image/31.png" alt="Profile Pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <!-- <img src="" alt="Traning"> -->
+                        <h3>Traning</h3>
+                        <p>Database Design and Development<br></p>
+                        <a id="isdb-website" href="https://www.isdb-bisew.org/about" target="_blank">ISDB-BISEW</a>
+                    </div> <br>
+
+                    <div class="details-container">
+                        <!-- <img src="" alt="Icon"> -->
+                        <h3>Education</h3>
+                        <p>BBA<br></p>
+                        <a id="biu-website" href="https://biu.ac.bd/" target="_blank">Bangladesh Islami University</a>
+                    </div>
+                </div>
+                <div class="text-container"></div>
+                <p id="career-objective">Experienced Oracle APEX Developer and proficient Oracle Forms and Reports
+                    Developer with a solid foundation in Oracle SQL and PL/SQL. Adept at crafting dynamic,
+                    user-centric applications that bridge the gap between back-end functionality and intuitive front-end
+                    interfaces. Demonstrated expertise in project work, emphasizing collaborative problem-solving and
+                    delivering high-quality solutions. Eager to contribute my skills to a dynamic team,
+                    driving innovation in application development and database solutions.</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- experience section -->
+    <section id="experience">
+        <p class="section__text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-detail-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img class="exp-icon" src="./Image/Ticmark.webp" alt="Exp Icon">
+                            <div>
+                                <h3>Oracle Apex</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="exp-icon" src="./Image/Ticmark.webp" alt="Exp Icon">
+                            <div>
+                                <h3>Oracle Forms</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="exp-icon" src="./Image/Ticmark.webp" alt="Exp Icon">
+                            <div>
+                                <h3>Oracle Reports</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="exp-icon" src="./Image/Ticmark.webp" alt="Exp Icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="exp-icon" src="./Image/Ticmark.webp" alt="Exp Icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="exp-icon" src="./Image/Ticmark.webp" alt="Exp Icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Developer</h2>
+                    <div class="article-container">
+                        <article>
+                            <img class="exp-icon" src="./Image/Ticmark.webp" alt="Exp Icon">
+                            <div>
+                                <h3>Oracle SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img class="exp-icon" src="./Image/Ticmark.webp" alt="Exp Icon">
+                            <div>
+                                <h3>Oracle PL/SQL</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+
+
+
+
+    <!-- project section start -->
+
+
+    <section id="projects">
+        <p class="slide-header">My Recent</p>
+        <h1 class="slide-header" id="slide-project">Projects</h1> <br>
+        <div class="container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="image/1.png" alt="Slide 1"></div>
+                    <div class="swiper-slide"><img src="image/2.png" alt="Slide 2"></div>
+                    <div class="swiper-slide"><img src="image/3.png" alt="Slide 3"></div>
+                    <div class="swiper-slide"><img src="image/4.png" alt="Slide 4"></div>
+                    <div class="swiper-slide"><img src="image/5.png" alt="Slide 5"></div>
+                    <div class="swiper-slide"><img src="image/6.png" alt="Slide 6"></div>
+                    <div class="swiper-slide"><img src="image/7.png" alt="Slide 7"></div>
+                    <div class="swiper-slide"><img src="image/8.png" alt="Slide 8"></div>
+                    <div class="swiper-slide"><img src="image/9.png" alt="Slide 9"></div>
+                    <div class="swiper-slide"><img src="image/10.png" alt="Slide 10"></div>
+                    <div class="swiper-slide"><img src="image/11.png" alt="Slide 11"></div>
+                    <div class="swiper-slide"><img src="image/12.png" alt="Slide 12"></div>
+                    <div class="swiper-slide"><img src="image/13.png" alt="Slide 13"></div>
+                    <div class="swiper-slide"><img src="image/14.png" alt="Slide 14"></div>
+                    <div class="swiper-slide"><img src="image/15.png" alt="Slide 15"></div>
+                    <div class="swiper-slide"><img src="image/16.png" alt="Slide 16"></div>
+                    <div class="swiper-slide"><img src="image/17.png" alt="Slide 17"></div>
+                </div>
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+    
+            </div>
+    
+        </div> <br><br>
+        <h1 class="slide-header">School Management System</h1>
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+    
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable : true,
+                },
+    
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+    
+            });
+    
+        </script>
+    
+    </section>
+
+
+    <!-- project section end -->
+
+
+    <section id="contact">
+        <p class="section__text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img id="email-icon" src="./Image/email_icon.webp" alt="Email:" class="icon contact-icon">
+                <p><a href="mailto:habib8m@gmail.com">habib8m@gmail.com</a></p>
+            </div>
+
+            <div class="contact-info-container">
+                <img id="email-icon" src="./Image/linked_02.png" alt="Email:" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/habib8m/" target="_blank">Linkedin</a></p>
+            </div>
+
+            <div class="contact-info-container">
+                <img id="email-icon" src="./Image/facebook-icon_02.png" alt="Email:" class="icon contact-icon">
+                <p><a href="https://www.facebook.com/habib8m" target="_blank">Facebook</a></p>
+            </div>
+            
+
+        </div>
+
+        <!-- contact with email start -->
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+               <center> <button class="submit" type="submit">Submit</button></center>
+            </form>
+            <span id="msg"></span>
+        
+        </div>
+         <!-- contact with email end -->
+
+    </section>
+
+    <footer><br><br><br><br>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &copy; Habib Ullah. All Right Reserved</p>
+    </footer>
+
+
+    <script src="Script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body section start */
+body{
+    background-color: #EEE;
+   font-family: 'Times New Roman', Times, serif;
+   padding: 80px;
+   padding-right: 200px;
+   padding-left: 200px;
+}
+
+.container{
+    background-color: white;
+    margin: auto;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+/* header section start */
+
+.profile-picture{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    float: left;
+    border: 3px solid #EEE;
+}
+
+.header-bio{
+    padding: 20px;
+    float: left;
+}
+
+#head-name-designation{
+    float: left;
+    
+}
+
+.header-contact{
+    float: right;
+    padding: 10px;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+
+.header-contact a:hover{
+    color: rgb(9, 13, 233);
+    
+}
+
+.main-address{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+
+}
+
+.div-clear{
+    clear: both;
+}
+/* header section end */
+
+/* main section start */
+#section-head{
+    text-align: center;
+    background-color: #EEE;
+}
+
+.degree-body{
+    text-align: center;
+
+}
+
+.list-item-body{
+    padding: 20px;
+
+}
+ul {
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+}
+
+.academic-section{
+    text-align: center;
+}
+
+
+/* referense section start */
+#referense-01{
+    float: left;
+} 
+
+#referense-01 a{
+    text-decoration: none;
+    color: black;
+    padding-right: 400px;
+}
+
+#referense-02 a{
+    text-decoration: none;
+    color: black;
+}
+
+#referense-01 :hover{
+    color: blue;
+}
+
+#referense-02 :hover{
+    color: blue;
+}
+/* referense section end */
+
+/* table section start */
+.academic-degree{
+    width: 100%;
+    box-sizing: border-box;
+ border-collapse: collapse;
+ margin-top: 5px;
+}
+
+.traning{
+    width: 100%;
+    box-sizing: border-box;
+ border-collapse: collapse;
+ margin-top: 5px;
+}
+
+.personal-info{
+    width: 100%;
+
+}
+.academic-section td{
+    border: 1px solid rgb(236, 229, 229);
+ padding: 8px;
+ box-sizing: border-box;
+ border-collapse: collapse;
+
+}
+
+
+.training-section td{
+    border: 1px solid rgb(236, 229, 229);
+    padding: 8px;
+    box-sizing: border-box;
+    border-collapse: collapse;
+
+}
+
+th{
+    background-color: #D6EEEE;
+    border: 0px;
+
+}
+
+.links{
+    text-decoration: none;
+    color: teal;
+    font-weight: bold;
+}
+
+  /* table section end */
+
+
+/* signature section start */
+#signature{
+   width: 180px;
+}
+
+/* signature section end */
+
+
+/* bodt section end */
